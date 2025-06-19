@@ -1,0 +1,25 @@
+Запустить в vs:
+
+1.	Откройте свойства проекта:
+o	Правой кнопкой по проекту → Properties
+2.	Настройте Linker:
+o	Configuration Properties → Linker → System
+	SubSystem: Windows (/SUBSYSTEM:WINDOWS)
+o	Configuration Properties → Linker → Advanced
+	Entry Point: main (если используете main как точку входа)
+3.	Добавьте библиотеку user32.lib:
+o	Configuration Properties → Linker → Input
+	Additional 
+
+
+1.	Откройте Visual Studio и создайте новый проект:
+o	File → New → Project
+o	Выберите "Empty Project" (Пустой проект)
+o	Укажите имя проекта и нажмите "Create"
+2.	Настройте проект для сборки ASM:
+o	Правой кнопкой по проекту → Build Dependencies → Build Customizations
+o	Отметьте "masm" и нажмите OK
+3.	Добавьте файл с вашим кодом:
+o	Правой кнопкой по проекту → Add → New Item
+o	Выберите "C++ File (.cpp)" но назовите его с расширением .asm (например messagebox.asm)
+o	Вставьте код в этот файл
