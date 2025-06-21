@@ -11,8 +11,6 @@
 
 ![изображение](https://github.com/user-attachments/assets/ada78cef-49c7-440f-9bee-524f490017f7)
 
-![изображение](https://github.com/user-attachments/assets/7a91aebd-0ccc-4158-b337-953a8306c0aa)
-
 4. Нажимаем на стрелочку -> "Импортировать профиль" -> "Выберите файл". Выбираем наш скаченный `AssemblerDev`.
 5. Ждём пока скачаются все плагины.
 
